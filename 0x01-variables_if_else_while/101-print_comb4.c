@@ -24,6 +24,6 @@ putchar(' ');
 }
 }
 }
-Return(0);
+return (0);
 
 }
