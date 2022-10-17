@@ -2,6 +2,7 @@
 
 /**
 *main - entry point
+*Return: Always 0
 */
 
 int main(void)
@@ -23,5 +24,6 @@ putchar(' ');
 }
 }
 }
-return (0);
+Return(0);
+
 }
