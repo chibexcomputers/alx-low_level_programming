@@ -3,16 +3,16 @@
 #include <time.h>
 
 /**
-** main - Entry point
-** Return: Always 0
-**/
+*main - Entry point
+*Return: Always 0
+*/
 
-int main(void);
+int main(void)
 
 {
-char low;
-for (low = 'a'; low <= 'z'; low++)
-putchar(low);
-putchar ('\n');
+char i;
+for (i = 'z'; i >= 'a'; i--)
+putchar('i');
+putchar('\n');
 return (0);
 }
