@@ -14,8 +14,8 @@ for (row = 0; row <= 9; row++)
 _putchar(0);
 for (column = 1; column <= 9; column++)
 {
-_putchar(',');
 _putchar('0');
+_putchar(',');
 _putchar(' ');
 product = row * column;
 if (product <= 9)
