@@ -18,7 +18,6 @@ _putchar(',');
 _putchar(' ');
 product = row * column;
 if (product <= 9)
-_putchar('0')
 _putchar(' ');
 else
 _putchar((product / 10) + '0');
