@@ -1,18 +1,15 @@
 #include "main.h"
+
 /**
-*_strlen-Finds the length of a string.
-*@s:String pointer to the string whose length is to be found.
-*Return: returns the length of the string.
+* swap_int-Swaps the values of 2 integers.
+* @a:First argument to be swapped.
+* @b:second argument to be swapped.
+* Return:void.
 */
 
-int _strlen(char *s)
+void swap_int(int *a, int *b)
 {
-int p = 0;
-/incremeant up to when the last character is NULL,\0/
-while (*(s + p) != 0)
-{
-p++;
+int p = *a;
+*a = *b;
+*b = p;
 }
-return (p);
-}
-
