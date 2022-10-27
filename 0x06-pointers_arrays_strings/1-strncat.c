@@ -27,6 +27,6 @@ co = n;
 return (dest);
 }
 
-Footer
 
-© 2022 GitHub, Inc.
+
+
