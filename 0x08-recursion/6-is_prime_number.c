@@ -1,7 +1,5 @@
 #include "main.h"
 
-
-
 /**
 * palind2 - obtains length of a
 * @a: string
@@ -17,6 +15,7 @@ int palind2(char *a, int l)
 if (*a == 0)
 return (l - 1);
 return (palind2(a + 1, l + 1));
+
 }
 
 
